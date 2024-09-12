@@ -81,7 +81,7 @@ const SignIn = () => {
                                 <TextInput className=' text-white opacity-55' placeholder='Username' placeholderTextColor={Colors.light.icon} />
                             </View>
                             <View className='border-b border-b-custom-border-3 w-full h-10 mt-10' >
-                                <TextInput className=' text-white opacity-55' placeholder='Password' placeholderTextColor={Colors.light.icon} />
+                                <TextInput className=' text-white opacity-55' placeholder='Password' secureTextEntry={true} placeholderTextColor={Colors.light.icon} />
                             </View>
                             <View className='flex-row justify-between items-center mt-7'>
                                 <Text className='text-white font-bold text-sm '>Create accout</Text>

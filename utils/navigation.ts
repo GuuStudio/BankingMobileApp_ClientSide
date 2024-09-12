@@ -9,5 +9,6 @@ export const navigateTo = {
     voucher: () => router.push('/voucher'),
     more: () => router.push('/voucher'),
     profile: () => router.push('/profile'),
+    notificate: () => router.push('/notificate'),
 
 }

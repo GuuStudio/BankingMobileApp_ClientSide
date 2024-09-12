@@ -10,7 +10,7 @@ module.exports = {
       backgroundColor: {
         'custom-bg': '#274DCC',
         'custom-bg-darkblue-opacity': 'rgba(2, 31, 135, 0.5)',
-        'custom-bg-3': '#C1D3FF'
+        'custom-bg-3': 'rgba(219, 234, 254, 0.3 )'
 
       },
       colors: {

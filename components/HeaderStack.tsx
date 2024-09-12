@@ -12,7 +12,7 @@ export default function HeaderStack({ title }: { title: string }) {
                 <Ionicons name="chevron-back-outline" size={24} color={Colors.light.background} />
             </Pressable>
             <Text className='font-medium text-custom-color text-xl'>{title}</Text>
-            <Pressable onPress={() => router.back()}>
+            <Pressable onPress={() => router.push('/home')}>
                 <Ionicons name="home" size={24} color={Colors.light.background} />
             </Pressable>
 

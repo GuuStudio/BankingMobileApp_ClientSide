@@ -30,17 +30,12 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}
-
-    >
-      <Stack screenOptions={{
-        headerShown: false
-      }}>
-
-
+    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+      <Stack>
         <Stack.Screen name='(main)' options={{ headerShown: false }} />
         <Stack.Screen name='(auth)' options={{ headerShown: false }} />
         <Stack.Screen name='(account)' options={{ headerShown: false }} />
+        <Stack.Screen name='(notificate)' options={{ header: () => <HeaderStack title='Notificate' /> }} />
       </Stack>
     </ThemeProvider>
   );

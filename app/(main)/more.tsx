@@ -37,7 +37,7 @@ const More = () => {
                         </View>
                         {/* payment */}
 
-                        <NotificateBox >
+                        <NotificateBox title='Quick access'>
                             <View className='flex-row flex-wrap items-center'>
                                 {payments.map((item) => {
                                     return (
@@ -46,7 +46,7 @@ const More = () => {
                                 })}
                             </View>
                         </NotificateBox>
-                        <NotificateBox >
+                        <NotificateBox title='Deposit & invest'>
                             <View className='flex-row flex-wrap items-center'>
                                 {payments.map((item) => {
                                     return (
