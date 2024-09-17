@@ -20,13 +20,23 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         tabBarInactiveTintColor: Colors[colorScheme ?? 'light'].tabIconDefault,
+
         tabBarStyle: {
+          borderTopWidth: 0,
+          overflow: 'hidden',
           backgroundColor: Colors.light.background,
-          height: 100,
+          height: 90,
           paddingTop: 20,
-          paddingBottom: 30,
-          marginTop: 0,
-          borderTopColor: Colors.light.border
+          paddingBottom: 20,
+          borderTopColor: Colors.light.border,
+          marginHorizontal: 10,
+          borderRadius: 20,
+          bottom: 15,
+          position: 'absolute',
+          shadowOffset: { width: 100, height: 10 }, // Đặt chiều cao bóng mờ
+          shadowOpacity: 0.4, // Độ mờ của bóng mờ
+          shadowRadius: 20, // Bán kính mờ của bóng mờ
+          shadowColor: '#fff', // Màu của bóng mờ
         },
         header: () => <Header />,
         headerStyle: {

@@ -9,7 +9,7 @@ import CardSquare from '@/components/CardSquare'
 const Payment = () => {
     return (
         <View
-            className='bg-custom-bg'
+            className='bg-main-500'
         >
             <ScrollView
                 showsVerticalScrollIndicator={false}
@@ -20,11 +20,11 @@ const Payment = () => {
             >
                 <LinearGradient
                     // Background Linear Gradient
-                    colors={['#F5FAFD', '#F1F9FC', '#EEF7FD', '#DDF1FC', '#DDF1FC']}
+                    colors={['#F9F1FD', '#F6EAFC', '#EFDBF9', '#EDD9F8', '#EBD3F8']}
                 >
                     <View className=' flex-row justify-between items-center px-6 pt-4 mt-6'>
                         <Text className='text-black text-2xl font-medium'>Payment {'\n'}& transfer</Text>
-                        <View className='p-3  shadow shadow-custom-shadow border border-custom-border-3 rounded-full justify-center'>
+                        <View className='p-3  shadow shadow-main-300 border border-custom-border-3 rounded-full justify-center'>
                             <Image
                                 source={require('../../assets/images/scanner.png')}
                                 style={{

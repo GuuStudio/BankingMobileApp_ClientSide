@@ -4,7 +4,7 @@ import React from 'react'
 export default function CardSquare({ imgUrl, title, custom }: { imgUrl: any, title: string, custom?: string }) {
     return (
         <View
-            className={`border border-custom-border-2 shadow-sm shadow-custom-shadow ${custom ? custom : ' w-32 h-32 bg-white'} rounded-md  flex-col justify-between p-4 mr-4`}
+            className={`border border-main-300  ${custom ? custom : ' w-32 h-32 bg-white'} rounded-md  flex-col justify-between p-4 mr-4`}
         >
             <Image source={imgUrl}
                 style={{

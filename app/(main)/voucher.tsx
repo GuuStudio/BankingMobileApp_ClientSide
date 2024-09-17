@@ -14,7 +14,7 @@ const Voucher = () => {
     return (
 
         <View
-            className='bg-custom-bg'
+            className='bg-main-500'
         >
             <ScrollView
                 showsVerticalScrollIndicator={false}
@@ -22,18 +22,21 @@ const Voucher = () => {
                 style={{
                     marginTop: 110
                 }}
+                contentContainerStyle={{
+                    paddingBottom: 70
+                }}
             >
                 {/* imge shopping mall */}
                 <LinearGradient
                     // Background Linear Gradient
-                    colors={['#F5FAFD', '#F1F9FC', '#EEF7FD', '#DDF1FC', '#DDF1FC']}
+                    colors={['#F9F1FD', '#F6EAFC', '#EFDBF9', '#EDD9F8', '#EBD3F8']}
                 >
 
                     <View className='h-20 flex-row justify-between items-center pt-4 mt-6 px-6'>
                         <Text className='text-black text-2xl font-medium'>Voucher</Text>
                     </View>
                     <View className='px-6'>
-                        <View className=' py-3 w-full bg-white rounded-md border border-custom-border-2 shadow-sm shadow-custom-shadow flex-row justify-between items-center p-4'>
+                        <View className=' py-3 w-full bg-white rounded-md border border-main-400 flex-row justify-between items-center p-4'>
                             <View className='flex-col flex-1'>
                                 <Text className='font-medium'>
                                     LOYALTY POINT
@@ -68,8 +71,8 @@ const Voucher = () => {
                                 }}
                             >
                                 <Text className='text-white font-medium '>Quay thật sung - Trúng cực khủng</Text>
-                                <Text className='text-custom-color-2 font-medium text-xs'>Cơ hội nhận thưởng lên đến 500 triệu</Text>
-                                <View className='flex-row border border-custom-border-3 px-4 py-5 rounded-xl w-full justify-between items-center'
+                                <Text className='text-main-100 font-medium text-xs'>Cơ hội nhận thưởng lên đến 500 triệu</Text>
+                                <View className='flex-row border border-main-300 px-4 py-5 rounded-xl w-full justify-between items-center'
                                     style={{
                                         backgroundColor: 'rgba(255,255,255, 0.2)'
                                     }}

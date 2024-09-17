@@ -9,7 +9,7 @@ type contentProp = {
 
 export default function CardHorizon({ imgUrl, content }: { imgUrl: any, content: contentProp }) {
     return (
-        <View className={`rounded-md bg-white p-4 flex-row justify-between items-center mr-4 gap-5 border border-custom-border-2`} >
+        <View className={`rounded-md bg-white p-4 flex-row justify-between items-center mr-4 gap-5 border border-main-300`} >
             <View className='flex-row gap-3'>
                 <Image
                     source={imgUrl}
