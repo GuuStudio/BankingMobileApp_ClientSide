@@ -1,8 +1,7 @@
 # Welcome to your Expo app 👋
 ## Authentication screen
 1. SignIn.
-![image](https://github.com/user-attachments/assets/ba58b8f3-edf5-4e98-9872-35ae2486c060)
-
+![image](https://github.com/user-attachments/assets/7cf28e4c-b6d1-4dc6-af59-d4750b713e21)
 2. Sign Up
 ![image](https://github.com/user-attachments/assets/97766db6-2092-44e8-900b-060164a9869a)
 
