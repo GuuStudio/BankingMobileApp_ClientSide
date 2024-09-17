@@ -11,23 +11,20 @@
 
 ## Tabs
 1. Home
-<img src="" alt="Alt text" width="200" height="400"/>
-<img src="" alt="Alt text" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/337a1135-7c8b-41a4-88c1-f8aba7ceaedb" alt="Alt text" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/451bc051-eb63-4848-9342-2ad1b247dc9b" alt="Alt text" width="200" height="400"/>
    
-![image](https://github.com/user-attachments/assets/337a1135-7c8b-41a4-88c1-f8aba7ceaedb)
-![image](https://github.com/user-attachments/assets/451bc051-eb63-4848-9342-2ad1b247dc9b)
 
 2. Card
-![image](https://github.com/user-attachments/assets/293b001b-248d-49bd-adc7-4a4bab6e449f)
-![image](https://github.com/user-attachments/assets/64170e6d-f3bf-44f3-9fa0-8fd72cc8dbca)
-<img src="" alt="Alt text" width="200" height="400"/>
-<img src="" alt="Alt text" width="200" height="400"/>
+
+<img src="https://github.com/user-attachments/assets/293b001b-248d-49bd-adc7-4a4bab6e449f" alt="Alt text" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/64170e6d-f3bf-44f3-9fa0-8fd72cc8dbca" alt="Alt text" width="200" height="400"/>
 
 
 
 3. Payment
-![image](https://github.com/user-attachments/assets/6115d92c-d830-43c0-8055-766af14633cf)
 
+<img src="https://github.com/user-attachments/assets/6115d92c-d830-43c0-8055-766af14633cf" alt="Alt text" width="200" height="400"/>
 
 4. Voucher
 
