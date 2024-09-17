@@ -9,7 +9,7 @@ import NotificateBox from '@/components/NotificateBox'
 const More = () => {
     return (
         <View
-            className='bg-custom-bg'
+            className='bg-main-500'
         >
             <ScrollView
                 showsVerticalScrollIndicator={false}
@@ -17,15 +17,18 @@ const More = () => {
                 style={{
                     marginTop: 110,
                 }}
+                contentContainerStyle={{
+                    paddingBottom: 70
+                }}
             >
                 <LinearGradient
                     // Background Linear Gradient
-                    colors={['#F5FAFD', '#F1F9FC', '#EEF7FD', '#DDF1FC', '#DDF1FC']}
+                    colors={['#F9F1FD', '#F6EAFC', '#EFDBF9', '#EDD9F8', '#EBD3F8']}
                 >
                     <View className='w-full px-6 pb-40'>
                         <View className=' flex-row justify-between items-center  pt-4 mt-6 mb-6'>
                             <Text className='text-black text-2xl font-medium'>Payment {'\n'}& transfer</Text>
-                            <View className='p-3  shadow shadow-custom-shadow border border-custom-border-3 rounded-full justify-center'>
+                            <View className='p-3  shadow shadow-main-300 border border-custom-border-3 rounded-full justify-center'>
                                 <Image
                                     source={require('../../assets/images/setting.png')}
                                     style={{

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function BoxImage({ imgUrl, custom }: { imgUrl: any, custom?: string }) {
     return (
-        <View className={`bg-black ${custom != null ? custom : 'w-80 h-44 mr-6'} rounded-2xl shadow-xs shadow-gray-500`}>
+        <View className={`bg-black ${custom != null ? custom : 'w-80 h-44 mr-6'} rounded-2xl shadow-xs shadow-main-300`}>
             <Image
                 className='rounded-2xl'
                 source={imgUrl}

@@ -31,13 +31,13 @@ export default function MyPager() {
     }
     return (
         <View style={styles.container}>
-            <View className=' flex-row bg-blue-100 h-12  px-4 justify-between'>
+            <View className=' flex-row bg-main-300 h-12  px-4 justify-between'>
                 {headerButtons.map((item) => {
                     return (
                         <Pressable
                             onPress={() => goToPage(item.id)}
                             className={`${item.id == currentPage && 'border-b-2 border-custom-color'} h-full items-center flex-row px-2`} key={item.id}>
-                            <Text className={`${item.id == currentPage ? 'text-custom-color' : 'text-gray-500'} font-medium`}>{item.title}</Text>
+                            <Text className={`${item.id == currentPage ? 'text-custom-color' : 'text-gray-700'} font-medium`}>{item.title}</Text>
                         </Pressable>
                     )
                 })}
@@ -51,7 +51,7 @@ export default function MyPager() {
                         // Background Linear Gradient
                         colors={['#F5FAFD', '#F1F9FC', '#EEF7FD', '#DDF1FC', '#DDF1FC']}
                     >
-                        <View className='h-full w-full p-6'>
+                        <View className='h-full w-full px-6'>
                             <FlatList
                                 showsVerticalScrollIndicator={false}
                                 data={notifications}
@@ -79,7 +79,7 @@ export default function MyPager() {
                         // Background Linear Gradient
                         colors={['#F5FAFD', '#F1F9FC', '#EEF7FD', '#DDF1FC', '#DDF1FC']}
                     >
-                        <View className='h-full w-full p-6'>
+                        <View className='h-full w-full px-6'>
                             <FlatList
                                 showsVerticalScrollIndicator={false}
                                 data={notifications}

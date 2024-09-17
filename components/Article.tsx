@@ -6,7 +6,7 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 
 export default function Article({ imgUrl, title }: { imgUrl: any, title: string }) {
     return (
-        <View className={`w-72 rounded-md bg-white items-center mr-4 border border-custom-border-2`} >
+        <View className={`w-72 rounded-md bg-white items-center mr-4 border border-main-300`} >
             <Image
                 source={imgUrl}
                 style={{

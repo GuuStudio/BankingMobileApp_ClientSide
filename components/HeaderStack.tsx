@@ -7,12 +7,12 @@ import { navigateTo } from '@/utils/navigation';
 
 export default function HeaderStack({ title }: { title: string }) {
     return (
-        <View className='flex-row  w-full justify-between items-center px-6 pt-14 pb-4 bg-white shadow-lg shadow-gray-200'>
+        <View className='flex-row  w-full justify-between items-center px-6 pt-14 pb-4 bg-white '>
             <Pressable onPress={() => router.back()}>
                 <Ionicons name="chevron-back-outline" size={24} color={Colors.light.background} />
             </Pressable>
             <Text className='font-medium text-custom-color text-xl'>{title}</Text>
-            <Pressable onPress={() => router.push('/home')}>
+            <Pressable onPress={() => router.replace('/home')}>
                 <Ionicons name="home" size={24} color={Colors.light.background} />
             </Pressable>
 

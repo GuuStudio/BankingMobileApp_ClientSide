@@ -13,7 +13,7 @@ const Card = () => {
   return (
 
     <View
-      className='bg-custom-bg'
+      className='bg-main-500'
     >
       <ScrollView
         showsVerticalScrollIndicator={false}
@@ -21,10 +21,13 @@ const Card = () => {
         style={{
           marginTop: 110
         }}
+        contentContainerStyle={{
+          paddingBottom: 90
+        }}
       >
         <LinearGradient
           // Background Linear Gradient
-          colors={['#F5FAFD', '#F1F9FC', '#EEF7FD', '#DDF1FC', '#DDF1FC']}
+          colors={['#F9F1FD', '#F6EAFC', '#EFDBF9', '#EDD9F8', '#EBD3F8']}
         >
           <View className='h-20 flex-row justify-between items-center px-6 mt-6'>
             <Text className='text-black text-2xl font-medium'>Card (2)</Text>
@@ -62,7 +65,7 @@ const Card = () => {
         {/* imge shopping mall */}
         <LinearGradient
           // Background Linear Gradient
-          colors={['#F5FAFD', '#F1F9FC', '#EEF7FD', '#DDF1FC', '#DDF1FC']}
+          colors={['#F9F1FD', '#F6EAFC', '#EFDBF9', '#EDD9F8', '#EBD3F8']}
         >
           {/* Title */}
           <View className='flex-row px-6 items-center justify-between'>
@@ -116,7 +119,7 @@ const Card = () => {
                 <Text className='text-custom-color font-medium'>All</Text>
               </View>
             </View>
-            <View className='pl-6 pb-8'>
+            <View className='pl-6 pb-32f'>
               <FlatList
                 className='gap-3'
                 contentContainerStyle={{
