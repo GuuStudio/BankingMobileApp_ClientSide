@@ -1,50 +1,39 @@
 # Welcome to your Expo app 👋
+## Authentication screen
+1. SignIn.
+![image](https://github.com/user-attachments/assets/ba58b8f3-edf5-4e98-9872-35ae2486c060)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+2. Sign Up
+![image](https://github.com/user-attachments/assets/97766db6-2092-44e8-900b-060164a9869a)
 
-## Get started
+## Tabs
+1. Home
+![image](https://github.com/user-attachments/assets/337a1135-7c8b-41a4-88c1-f8aba7ceaedb)
+![image](https://github.com/user-attachments/assets/451bc051-eb63-4848-9342-2ad1b247dc9b)
 
-1. Install dependencies
+2. Card
+![image](https://github.com/user-attachments/assets/293b001b-248d-49bd-adc7-4a4bab6e449f)
+![image](https://github.com/user-attachments/assets/64170e6d-f3bf-44f3-9fa0-8fd72cc8dbca)
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+3. Payment
+![image](https://github.com/user-attachments/assets/6115d92c-d830-43c0-8055-766af14633cf)
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+5. Voucher
+![image](https://github.com/user-attachments/assets/b06682c6-d9a3-4806-b018-41bb797f3c76)
+![image](https://github.com/user-attachments/assets/58a37404-ed09-42cc-b72d-f651e36d9f31)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+7. More
+   ![image](https://github.com/user-attachments/assets/24762350-9871-4914-b35b-9a433666aee8)
 
-## Get a fresh project
 
-When you're ready, run:
+## Notification
+![image](https://github.com/user-attachments/assets/192aab06-9044-42c3-b9c7-074701c7cd2d)
+![image](https://github.com/user-attachments/assets/00d09dc3-b15a-4aa0-8d15-20e5c38b4e2f)
 
-```bash
-npm run reset-project
-```
+## Profile 
+![Uploading image.png…]()
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
