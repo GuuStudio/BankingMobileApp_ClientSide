@@ -2,7 +2,8 @@
 ## Authentication screen
 1. SignIn.
 ![signin](https://github.com/user-attachments/assets/72cca436-0dc8-4b26-b9fe-c89c9423c2d1)
-2. Sign Up
+<img src="https://github.com/user-attachments/assets/72cca436-0dc8-4b26-b9fe-c89c9423c2d1" alt="Alt text" width="200" height="400">
+3. Sign Up
 ![image](https://github.com/user-attachments/assets/97766db6-2092-44e8-900b-060164a9869a)
 
 ## Tabs
