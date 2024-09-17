@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# Welcome to my Banking mobile app 👋
 ## Authentication screen
 1. SignIn.
 
